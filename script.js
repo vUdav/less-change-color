@@ -1,9 +1,5 @@
-jQuery(document).ready(function(){
-	changeColor()
-});
-
-// Change color
-function changeColor() {
+// Change color Less
+function changeColorLess() {
 	var el = $('#color-picker');
 	el.on('change',function(){
 		var color = el.val();

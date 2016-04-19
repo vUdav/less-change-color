@@ -2,14 +2,20 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Less Change Color</title>
+	<title>Less color change</title>
 	<link rel="stylesheet/less" type="text/css" href="style.less">
 	<link rel="stylesheet" href="style.css">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="script.js"></script>
+	<script>
+		jQuery(document).ready(function(){
+			changeColorLess()
+		});
+	</script>
 </head>
 <body>
+	<h1>Less color change</h1>
 	<div class="block brand-primary"></div>
 	<label>
 		Color picker:
